@@ -1,0 +1,54 @@
+<div class="container">
+
+  <div class="row" style="margin-top:10%;">
+    <div class="col-md-6">
+      <div class="card bg-dark text-white" style="height: 70%;">
+        <img src="../../../assets/mens-clothing.png" class="card-img" alt="clothing" id="img-men">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Men's Clothing</h5>
+          <button type="button" class="btn btn-primary" (click)="seeProductsByCategory(Category.MenSClothing)">See</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card bg-dark text-white" style="height: 70%;">
+        <img src="../../../assets/women-clothing.png" class="card-img" alt="clothing" id="img-women">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Women's Clothing</h5>
+          <button type="button" class="btn btn-primary" (click)="seeProductsByCategory(Category.WomenSClothing)">See</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-6" id="card-jewelery">
+      <div class="card bg-dark text-white" style="height: 100%;">
+        <img src="../../../assets/pexels-the-glorious-studio-3584518-20943476.jpg" class="card-img" alt="..." style="height: 100%;">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Jewelery</h5>
+          <button type="button" class="btn btn-primary" (click)="seeProductsByCategory(Category.Jewelery)">See</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+      <div class="card bg-dark text-white" style="height: 100%;">
+        <img src="../../../assets/monitor-color.png" class="card-img" alt="..." style="height: 100%;">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Tech</h5>
+          <button type="button" class="btn btn-primary" (click)="seeProductsByCategory(Category.Electronics)">See</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="row" style="display: flex; justify-content: center;padding: 25px;">
+    <div class="col-md-12">
+      <button type="button" class="btn btn-primary" id="btn-ver-productos" (click)="viewAllProducts()">See all products</button>
+    </div>
+  </div>
+  
+</div>

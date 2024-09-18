@@ -1,0 +1,66 @@
+.container{
+    display: grid;
+    justify-items: center;
+}
+
+img {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+#img-men{
+    height: 97%;
+}
+
+#img-women{
+    height: 97%;
+}
+
+/* Media query para pantallas pequeñas (celulares) */
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        width: 90%; 
+        height: auto; 
+        border-radius: 1rem;
+    }
+
+    #img-men{
+        height: 96%;
+    }
+
+    #img-women{
+        height: 96%;
+    }
+
+    .card {
+        height: auto; 
+    }
+
+    #card-jewelery{
+        margin-bottom: 45%;
+    }
+
+    .btn {
+        width: 20%; 
+        margin-top: 0.5rem;
+    }
+
+    #btn-ver-productos {
+        width: 100%;
+    }
+}
