@@ -15,6 +15,11 @@ View products by category:
 ![image](https://github.com/user-attachments/assets/4242ae13-3c82-4177-8c9a-44a584839878)
 
 
+See product details:
+
+![image](https://github.com/user-attachments/assets/300c8972-0389-4407-8790-577d168392db)
+
+
 Contact form:
 
 ![image](https://github.com/user-attachments/assets/a99991d5-317e-4b03-9349-888efda57afb)
