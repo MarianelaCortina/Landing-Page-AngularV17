@@ -1,4 +1,4 @@
-# Sales Products: https://salesproducts.netlify.app/
+# Sales Products
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
 
